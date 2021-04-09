@@ -1,6 +1,7 @@
 #include <ESP8266WiFi.h>
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
+#include <motor_control.ino>
 
 #define WIFI_SSID "Jardin D'Eden"
 #define WIFI_PASS "maitreemilio"
@@ -8,7 +9,7 @@
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
 #define MQTT_NAME "KFluffy"
-#define MQTT_PASS "aio_mksd59KXht1OaXDKEUFkLPo2Mj4y"
+#define MQTT_PASS "aio_JRej52dR8B7nCoqb0fYyNEYorJYa"
 
 //Set up MQTT and WiFi clients
 WiFiClient client;
